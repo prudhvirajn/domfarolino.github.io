@@ -1,0 +1,134 @@
+ <!doctype html>
+<html>
+  <head>
+    <title>Dominic Farolino</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Dominic Farolino">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <meta name="theme-color" content="#5F5E5E">
+
+    <script>
+      var host = "domfarolino.com";
+      if ((host == window.location.host) && (window.location.protocol != "https:")) window.location.protocol = "https";
+    </script>
+
+    <!-- Twitter Meta -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@DomFarolino">
+    <meta name="twitter:title" content="Dominic Farolino Personal Site">
+    <meta name="twitter:description" content="Personal site for Dom Farolino">
+    <meta name="twitter:image" content="https://domfarolino.com/imgs/box@192.png">
+    <meta name="twitter:image:alt" content="Cube logo">
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="/imgs/box@192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/imgs/box@16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/imgs/box@32.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Roboto">
+    <link rel="stylesheet" href="/css/master.css" media="screen">
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-content">
+        <img src="/imgs/box.svg" alt="box icon">
+        <h2 class="header-title">Dom Farolino</h2>
+        <div class="nav-container">
+          <input id="menu-toggle" type="checkbox" class="menu-toggle">
+          <label class="menu-toggle-label" for="menu-toggle"></label>
+          <nav>
+            <ul>
+              <li><a id="a-home" href="/">Home</a></li>
+              <li><a id="a-resume" href="/resume">Resume</a></li>
+              <li><a id="a-public-keys" href="/public-keys">Public Keys</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <section class="view-content visible">
+ 
+
+    <div view class="visible" id="view-home">
+      <div class="dom-card">
+        <h2>About Me</h2>
+        <p>
+          I'm Dom Farolino, a computer science major pursuing my Master's degree.
+          I'm a Software Engineering intern at Microsoft, Chromium contributer, and ex-Mozilla intern.
+          My interests range from computer science theory and algorithms, to the web platform (and more!).
+        </p>
+        <h3>Computer Science</h3>
+        <p>
+          I like solving algorithms and participating in competitive programming contests (C++). I love
+          C++, JavaScript, and am interested in algorithms and graph theory.
+        </p>
+        <h3>Web Platform</h3>
+        <p>
+          I'm a member of the <a href=https://github.com/whatwg/>WHATWG</a>, technical owner of the
+          <a href=https://wicg.github.io/priority-hints/>Priority Hints API</a> implementation in Chromium,
+          contributor to the <a href=https://html.spec.whatwg.org/multipage/>HTML Standard</a>, Firefox, and
+          editor of the <a href=https://console.spec.whatwg.org/>Console Standard</a>.
+        </p>
+        <p>
+          During the summer of 2017 I interned with Mozilla in Mountain View, CA on the Firefox graphics team
+          where I helped implement off-main-thread painting.
+        </p>
+      </div>
+      <div class="dom-card">
+        <h2>Projects</h2>
+        <p>
+          Check out my <a href=https://github.com/domfarolino/>GitHub</a> account to see most of my projects. I maintain an
+          <a href=https://github.com/domfarolino/algorithms/>algorithms</a> repository aimed at providing detailed
+          explanations and implementations of classic algorithms, data structures, and competitive programming problems.
+          I also maintain a <a href=https://blog.domfarolino.com/>blog</a> consisting of web- and algorithm- related posts.
+        </p>
+      </div>
+       <div class="dom-card">
+        <h2>Talks & Presentations</h2>
+        <table>
+          <tbody>
+            <tr>
+              <td><b>August 2017</b></td>
+              <td><a href="https://air.mozilla.org/intern-presentations-round-2-thursday-august-1st/#@30m0s">Mozilla Intern Presentation - Off-Main-Thread Painting</a></td>
+            </tr>
+            <tr>
+              <td><b>Februrary 2017</b></td>
+              <td><a href="https://youtu.be/FXAOGZ3Gw4U?t=53s">Node Cincy Progressive Web App</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="dom-card">
+        <h2>Contact Me</h2>
+        <ul>
+          <li>
+            <a href=mailto:domfarolino@gmail.com>Email</a>
+          </li>
+          <li>
+            <a href=https://github.com/domfarolino/>GitHub</a>
+          </li>
+          <li>
+            <a href=https://twitter.com/domfarolino/>Twitter</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+ 
+    </section>
+
+    <script src="/js/bundle.min.js" async defer></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-84253715-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
+ 
